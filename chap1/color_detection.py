@@ -33,6 +33,7 @@ while True:
     upper = np.array([h_max, s_max, v_max])
     mask = cv2.inRange(imgHSV, lower, upper)
 
+
     imgResult = cv2.bitwise_and(img, img, mask=mask)
 
     cv2.imshow("Image", stack_images(1, ([img, imgResult], [imgHSV, mask])))
