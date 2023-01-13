@@ -1,0 +1,209 @@
+{
+  "core_exercises": [
+    {
+      "name": "Plank",
+      "difficulty": "intermediate",
+      "type": "static",
+      "targeted_muscles": "rectus abdominis, transverse abdominis, obliques, and erector spinae"
+    },
+    {
+      "name": "Dead bug",
+      "difficulty": "easy",
+      "type": "dynamic",
+      "targeted_muscles": "rectus abdominis, transverse abdominis, obliques"
+    },
+    {
+      "name": "Russian twist",
+      "difficulty": "intermediate",
+      "type": "dynamic",
+      "targeted_muscles": "rectus abdominis, obliques"
+    },
+    {
+      "name": "Ab wheel rollouts",
+      "difficulty": "advanced",
+      "type": "dynamic",
+      "targeted_muscles": "rectus abdominis, transverse abdominis, obliques, erector spinae"
+    },
+    {
+      "name": "Hanging leg raise",
+      "difficulty": "advanced",
+      "type": "dynamic",
+      "targeted_muscles": "rectus abdominis, transverse abdominis, obliques"
+    },
+    {
+      "name": "Stability ball jackknife",
+      "difficulty": "intermediate",
+      "type": "dynamic",
+      "targeted_muscles": "rectus abdominis, transverse abdominis, obliques"
+    },
+    {
+      "name": "Side plank",
+      "difficulty": "intermediate",
+      "type": "static",
+      "targeted_muscles": "obliques, transverse abdominis"
+    },
+    {
+      "name": "Dragon flag",
+      "difficulty": "advanced",
+      "type": "dynamic",
+      "targeted_muscles": "rectus abdominis, transverse abdominis"
+    },
+    {
+      "name": "Cable crunch",
+      "difficulty": "intermediate",
+      "type": "dynamic",
+      "targeted_muscles": "rectus abdominis"
+    },
+    {
+      "name": "Swiss ball pike",
+      "difficulty": "advanced",
+      "type": "dynamic",
+      "targeted_muscles": "rectus abdominis, transverse abdominis, obliques"
+    },
+    {
+      "name": "Burpee",
+      "difficulty": "N/A",
+      "type": "dynamic",
+      "targeted_muscles": "N/A"
+    },
+    {
+            "name": "Bridging",
+            "difficulty": "easy",
+            "type": "static",
+            "targeted_muscles": "glutes, lower back, and core"
+        },
+        {
+            "name": "Bird Dog",
+            "difficulty": "easy",
+            "type": "dynamic",
+            "targeted_muscles": "lower back, glutes, and core"
+        },
+        {
+            "name": "Seated side bend",
+            "difficulty": "easy",
+            "type": "static",
+            "targeted_muscles": "oblique"
+        },
+        {
+            "name": "Seated spinal twist",
+            "difficulty": "easy",
+            "type": "static",
+            "targeted_muscles": "oblique, lower back, and core"
+        },
+        {
+            "name": "Seated leg extension",
+            "difficulty": "easy",
+            "type": "dynamic",
+            "targeted_muscles": "core and lower back"
+        },
+        {
+            "name": "Standing torso rotation",
+            "difficulty": "easy",
+            "type": "dynamic",
+            "targeted_muscles": "oblique and core"
+        },
+        {
+            "name": "Standing leg sweep",
+            "difficulty": "easy",
+            "type": "dynamic",
+            "targeted_muscles": "core and lower back"
+        },
+        {
+            "name": "Squat",
+            "difficulty": "easy",
+            "type": "dynamic",
+            "targeted_muscles": "quads, glutes, and core"
+        },
+        {
+            "name": "Leg slide",
+            "difficulty": "easy",
+            "type": "dynamic",
+            "targeted_muscles": "core and lower back"
+        },
+        {
+            "name": "Knee pull-in",
+            "difficulty": "easy",
+            "type": "dynamic",
+            "targeted_muscles": "lower abdominal"
+        },
+        {
+            "name": "Floor angel",
+            "difficulty": "easy",
+            "type": "static",
+            "targeted_muscles": "back, shoulders, and core"
+        },
+        {
+            "name": "Cat and cow",
+            "difficulty": "easy",
+            "type": "dynamic",
+            "targeted_muscles": "lower back and core"
+        },
+        {
+            "name": "Child's pose",
+            "difficulty": "easy",
+            "type": "static",
+            "targeted_muscles": "lower back, glutes, and core"
+        },
+        {
+            "name": "Dead bug",
+            "difficulty": "easy",
+            "type": "dynamic",
+            "targeted_muscles": "rectus abdominis, transverse abdominis, obliques"
+        },
+    {
+            "name": "Plank",
+            "difficulty": "intermediate",
+            "type": "static",
+            "targeted_muscles": "rectus abdominis, transverse abdominis, obliques, and erector spinae"
+        },
+        {
+            "name": "Russian twist",
+            "difficulty": "intermediate",
+            "type": "dynamic",
+            "targeted_muscles": "rectus abdominis, obliques"
+        },
+        {
+            "name": "Stability ball jackknife",
+            "difficulty": "intermediate",
+            "type": "dynamic",
+            "targeted_muscles": "rectus abdominis, transverse abdominis, obliques"
+        },
+        {
+            "name": "Side plank",
+            "difficulty": "intermediate",
+            "type": "static",
+            "targeted_muscles": "obliques, transverse abdominis"
+        },
+        {
+            "name": "Cable crunch",
+            "difficulty": "intermediate",
+            "type": "dynamic",
+            "targeted_muscles": "rectus abdominis"
+        },
+        {
+            "name": "Dumbbell side bend",
+            "difficulty": "intermediate",
+            "type": "static",
+            "targeted_muscles": "oblique"
+        },
+        {
+            "name": "Hanging knee raise",
+            "difficulty": "intermediate",
+            "type": "dynamic",
+            "targeted_muscles": "rectus abdominis and oblique"
+        },
+        {
+            "name": "Medicine ball twist",
+            "difficulty": "intermediate",
+            "type": "dynamic",
+            "targeted_muscles": "rectus abdominis and oblique"
+        },
+        {
+            "name": "Reverse crunch",
+            "difficulty": "intermediate",
+            "type": "dynamic",
+            "targeted_muscles": "rectus abdominis"
+        }
+  ]
+}
+

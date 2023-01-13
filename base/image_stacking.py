@@ -1,6 +1,4 @@
-import cv2
-import numpy as np
-from stack_images import *
+from code.utils.stack_images import *
 
 img = cv2.imread('res/lena.png')
 imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

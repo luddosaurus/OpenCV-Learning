@@ -1,6 +1,4 @@
-import cv2
-import numpy as np
-from stack_images import *
+from code.utils.stack_images import *
 
 
 def get_contours(image, image_contour):
