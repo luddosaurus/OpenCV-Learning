@@ -40,7 +40,9 @@ def get_warp(image, biggest_box_points, img_height, img_width):
 
     matrix = cv2.getPerspectiveTransform(src_points, dst_points)
     img_output = cv2.warpPerspective(image, matrix, (img_width, img_height))
-    return img_output
+    img_cropped = img_output[20:img_output.shape[0] - 20, 20:img_output.shape[1] - 20]
+    img_cropped = cv2.resize(img_cropped, (img_width, img_height))
+    return img_cropped
 
 
 def reorder(points):
@@ -61,7 +63,7 @@ while True:
     imgContour = img.copy()
     img = cv2.resize(img, (imgWidth, imgHeight))
     imgProcessed = pre_processing(img)
-    biggestBox = get_contours2(imgProcessed, imgContour)
+    biggestBox = get_contours2(imgProcessed, imgContour, 2500)
 
     if biggestBox.size != 0:
         imgWarped = get_warp(img, biggestBox, imgHeight, imgWidth)
