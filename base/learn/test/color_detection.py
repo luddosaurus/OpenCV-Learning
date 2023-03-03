@@ -5,7 +5,7 @@ def empty(a):
     pass
 
 
-path = "res/lambo.png"
+path = "../res/lambo.png"
 windowName = "TrackBars"
 
 cv2.namedWindow(windowName)

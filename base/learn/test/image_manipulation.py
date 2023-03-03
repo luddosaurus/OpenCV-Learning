@@ -3,7 +3,7 @@ import numpy as np
 print("Package Imported")
 
 
-img = cv2.imread("res/lena.png")
+img = cv2.imread("../res/lena.png")
 kernel = np.ones((5, 5), np.uint8)
 
 imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

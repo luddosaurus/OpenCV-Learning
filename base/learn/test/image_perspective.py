@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('res/cards.jpg')
+img = cv2.imread('../res/cards.jpg')
 
 width, height = 250, 350
 pts1 = np.float32(

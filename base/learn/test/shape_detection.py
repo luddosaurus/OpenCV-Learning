@@ -33,7 +33,7 @@ def get_contours(image, image_contour):
                         0.7, (50, 0, 50), 2)
 
 
-path = "res/shapes.png"
+path = "../res/shapes.png"
 img = cv2.imread(path)
 imgContour = img.copy()
 

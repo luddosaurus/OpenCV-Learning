@@ -3,7 +3,7 @@ import numpy as np
 
 # Cascade model to find faces/cats/cars/etc
 faceCascade = cv2.CascadeClassifier("res/haarcascades/haarcascade_frontalface_default.xml")
-img = cv2.imread("res/lena.png")
+img = cv2.imread("../res/lena.png")
 imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 faces = faceCascade.detectMultiScale(imgGray, 1.1, 4)
 

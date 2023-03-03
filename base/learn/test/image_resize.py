@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('res/lambo.png')
+img = cv2.imread('../res/lambo.png')
 
 
 def print_dim(image):
