@@ -18,20 +18,22 @@ def draw_vectors(img, marker_corners, marker_ids, matrix, distortion):
     if len(marker_corners) > 0:
         for i in range(0, len(marker_ids)):
             rotation_vec, translation_vec, markerPoints = aruco.estimatePoseSingleMarkers(
-                corners=marker_corners,
+                corners=marker_corners[i],
                 markerLength=0.05,
                 cameraMatrix=matrix,
                 distCoeffs=distortion
             )
-
-            # todo fix multiple markers
-            cv2.drawFrameAxes(
-                image=img,
-                cameraMatrix=matrix,
-                distCoeffs=distortion,
-                rvec=rotation_vec,
-                tvec=translation_vec,
-                length=axis_length)
+            if rotation_vec is not None:
+                print("Rotation: ", rotation_vec)
+                # todo fix multiple markers
+                # z - blue , y - green, x - red
+                cv2.drawFrameAxes(
+                    image=img,
+                    cameraMatrix=matrix,
+                    distCoeffs=distortion,
+                    rvec=rotation_vec,
+                    tvec=translation_vec,
+                    length=axis_length)
 
     return img
 
