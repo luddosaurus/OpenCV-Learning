@@ -15,21 +15,19 @@ while True:
         break
 
     # Do Stuff
-    chess_image = cb.update_chessboard_points(image)
+    chess_image = cb.find_and_save_chessboard_points(image)
 
     # Show Image
     cv2.imshow("Video", chess_image)
 
 # Calibrate
-calibrated_image = cb.calibrate(img=image)
+calibrated_image = cb.calibrate_intrinsic(img=image)
 cv2.imshow("Calibrated", calibrated_image)
 cv2.waitKey(0)
-print("Calibration pre-save ", cb.camera_matrix)
+print("Calibration pre-save \n", cb.camera_matrix)
 
 # Save n Load calibration matrix
-save_path = "calibrations/matrix2"
-
-cb.save_calibration(path=save_path)
+cb.save_calibration(save_name="test")
 
 cb.find_error()
 

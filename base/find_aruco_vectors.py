@@ -8,7 +8,7 @@ from cv2 import aruco
 camera = Camera()
 ah = ARHelper()
 cb = Calibrator()
-cb.load_calibration("calibrations/matrix2")
+cb.load_calibration("calibrations/matrix_good")
 
 
 def draw_vectors(img, marker_corners, marker_ids, matrix, distortion):
